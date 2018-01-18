@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html>
 <title>Biography</title>
-<header style = "font-size: 26px" align = center ><strong>Adrian Luley</strong></header>
+<header><strong>Adrian Luley</strong></header>
 <div>  </div>
 <head>
     <style>
+    header {padding: 25px;
+    font-size: 30px;
+    font-family:Helvetica;
+    text-align: center;}
+    body {
+        background-color: rgba(190, 4, 4, 0.836);
+        color: white;
+        }
     p {font-family: Arial, Helvetica, sans-serif;
-       font-size: 14px;}
+       font-size: 16px;
+       border: 2px solid black;
+       width: 800px;
+       padding: 15px;}
+    #footer {font-family: Arial, Helvetica, sans-serif;
+       font-size: 18px;
+       border: 1px solid black;
+       width: 200px;
+
+    }
     h1 {font-size: 26px;
      font-family: Helvetica;}
     h2 {font-size: 26px;
      font-family: Helvetica;}
     h3 {font-size: 26px;
      font-family: Helvetica;}
+    img {padding: 25px;}
+    details{ font-size: 20px;}
     </style>
 </head>
 <br />
@@ -24,8 +43,8 @@
       <Section>
         <h1>Introduction </h1>
           <p align = left>My name is Adrian Luley and I am 25 years old. 
-            I am currently attend <a href = "https://www.kenzie.academy/">Kenzie Academy</a>,<br /> a school for web development in Indianapolis, Indiana. 
-            I was born in Indianapolis, Indiana <br /> and have lived here since. I have 2 dogs named
+            I am currently attend <a href = "https://www.kenzie.academy/">Kenzie Academy</a>, a school for web development in Indianapolis, Indiana. 
+            I was born in Indianapolis, Indiana and have lived here since. I have 2 dogs named
         Marley and Gucci</p>
         <details>
             <summary><em>Certificates</em></summary>
@@ -40,9 +59,9 @@
       </Section>
       <section>
         <h2>The Road So Far</h2>
-         <p> So far in the Kenzie Academy I have learned how to manuver thruough Terminal,<br />
+         <p> So far in the Kenzie Academy I have learned how to manuver thruough Terminal,
              which is a program that helps you dictate what the computer does for you step by step.
-            <br /> I have created my first web page, you are currently looking at and I am learning how to
+            I have created my first web page, you are currently looking at and I am learning how to
              style and code it now. 
         </p>
         <details>
@@ -68,8 +87,8 @@
          <p>I am looking forward to learning how to write information, style and add behavior
          to a web page and understand the different languages of coding</p> <br />
          <details>
-            <summary><em>Programs I would Like to Learn</em></summary>
-              <ol>
+            <summary><em>Programs I would Like to Learn</em></summary>  
+            <ol>
                   <li>JavaScript</li>
                   <li>Python</li>
                   <li>Aglile</li>
@@ -87,12 +106,12 @@
         alt = "C++" height = 100px width = 150px>
         <img src = "data:image/png;base64,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"
         alt = "A+ Comptia" height = 100px width = 150px>
-         <hr>
+        <hr>
          
     </body>
     <footer>
-        <p> &copy; By Adrian Luley</p>
-        <p> This is a link to my <a href="https://github.com/AdrianLuley"> GitHub Profile</a>.</p>
+        <p id="footer"> &copy; By Adrian Luley<br /></p>
+        <p id="footer">This is a link to my <a href="https://github.com/AdrianLuley"> GitHub Profile</a>.</p>
     </footer>
 
         </html>
